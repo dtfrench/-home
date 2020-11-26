@@ -1,0 +1,59 @@
+html {
+  --moonFont: "Audiowide", cursive;
+}
+
+body {
+  margin: 0;
+}
+
+#quote-box {
+  width: 100%;
+  height: 100vh;
+}
+
+#image-box {
+  width: 100%;
+}
+
+#background-image {
+  width: 100%;
+  height: 100vh;
+}
+
+#new-quote {
+  right: 50%;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: var(--moonFont);
+}
+
+#new-quote:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#displaybox {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  width: 60%;
+  max-width: 1000px;
+  text-align: center;
+  top: 30%;
+  margin-left: 20%;
+}
+
+#text {
+  font-size: 1.3em;
+  font-family: var(--moonFont);
+}
+
+#author {
+  font-size: 1.3em;
+  color: red;
+}
+
+@media (min-width: 600px) {
+  #displaybox {
+    font-size: 1.5em;
+}
